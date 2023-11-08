@@ -1,22 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Temperature and Humidity Data</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-  <form id="dataForm">
-    <label for="temperature">Temperature:</label>
-    <input type="text" id="temperature" name="temperature" required>
+<!-- Add id attributes to the input elements for easy access in JavaScript -->
+<form id="dataForm">
+  <label for="temperature">Temperature:</label>
+  <input type="text" id="temperature" name="temperature" required>
 
-    <label for="humidity">Humidity:</label>
-    <input type="text" id="humidity" name="humidity" required>
+  <label for="humidity">Humidity:</label>
+  <input type="text" id="humidity" name="humidity" required>
 
-    <button type="button" onclick="sendData()">Submit</button>
-  </form>
-
-  <script src="script.js"></script>
-</body>
-</html>
+  <button type="button" onclick="sendData()">Submit</button>
+</form>
